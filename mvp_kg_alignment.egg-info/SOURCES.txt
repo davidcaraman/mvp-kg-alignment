@@ -1,0 +1,6 @@
+pyproject.toml
+mvp_kg_alignment.egg-info/PKG-INFO
+mvp_kg_alignment.egg-info/SOURCES.txt
+mvp_kg_alignment.egg-info/dependency_links.txt
+mvp_kg_alignment.egg-info/requires.txt
+mvp_kg_alignment.egg-info/top_level.txt
