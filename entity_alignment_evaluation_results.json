@@ -1,0 +1,74 @@
+{
+  "hits_at_1": 0.9181130396083668,
+  "precision_recall_f1": {
+    "precision": 1.0,
+    "recall": 0.9577214063195372,
+    "f1_score": 0.9784041827688111
+  },
+  "coverage_metrics": {
+    "total_predictions": 4494,
+    "predictions_with_candidates": 4304,
+    "prediction_coverage": 0.9577214063195372,
+    "predictions_need_judge": 307,
+    "judge_rate": 0.06831330663106364,
+    "ground_truth_coverage": 0.9986666666666667
+  },
+  "confidence_analysis": {
+    "confidence_distribution": {
+      "5": 4119,
+      "1": 263,
+      "2": 59,
+      "4": 37,
+      "3": 16
+    },
+    "confidence_accuracy": {
+      "1": 0.15966386554621848,
+      "2": 0.07272727272727272,
+      "3": 0.375,
+      "4": 0.6756756756756757,
+      "5": 0.9987736080451313
+    },
+    "confidence_counts": {
+      "1": 263,
+      "2": 59,
+      "3": 16,
+      "4": 37,
+      "5": 4119
+    },
+    "avg_confidence": 4.711170449488207,
+    "std_confidence": 0.9968902508011478
+  },
+  "error_analysis": {
+    "no_prediction": 190,
+    "wrong_prediction": 178,
+    "correct_prediction": 4126,
+    "total_evaluated": 4494,
+    "error_by_confidence": {
+      "1": {
+        "errors": 100,
+        "total": 263,
+        "error_rate": 0.38022813688212925
+      },
+      "2": {
+        "errors": 51,
+        "total": 59,
+        "error_rate": 0.864406779661017
+      },
+      "3": {
+        "errors": 10,
+        "total": 16,
+        "error_rate": 0.625
+      },
+      "4": {
+        "errors": 12,
+        "total": 37,
+        "error_rate": 0.32432432432432434
+      },
+      "5": {
+        "errors": 5,
+        "total": 4119,
+        "error_rate": 0.0012138868657441126
+      }
+    }
+  }
+}
